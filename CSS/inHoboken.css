@@ -1,0 +1,62 @@
+header h1, h2{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h3 {
+  font-size: 6vw;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+body {
+  margin-top:auto;
+  margin-bottom:auto;
+}
+dt {
+  font-weight: bold;
+  font-size: 18px;
+}
+table {
+  margin-top:auto;
+  margin-bottom:auto;
+  margin-left:10px;
+  margin-right:10px;
+  border-collapse:collapse;
+  }
+
+  @media only screen and (max-width:480px)
+{
+  table, td {
+    margin: auto;
+    text-align: center;
+  }
+  dt {
+    text-align: center;
+  }
+  dd { 
+    margin: auto;
+  }
+  img, a {
+    display: block;
+    margin: auto;
+  }
+  a {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 480px)
+and (max-width: 768px)
+{
+
+}
+
+@media only screen and (min-width: 768px)
+{
+  dt {
+    font-size: 28px
+  }
+  li {
+    font-size: 20px
+  }
+}
